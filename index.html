@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <title>Consulgamer 🎮 | Playstation, Xbox, Nintento, PC</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Consulgamer 🎮 | Playstation, Xbox, Nintento, PC">
+  <meta property="og:description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/consulgamer.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="d-flex justify-content-between align-items-center mx-auto mb-4 p-3 max-w-1050">
+        <a href="/" class="scale-on-hover">
+          <img src="assets/icons/consulgamer.svg" alt="consulgamer logo" width="90">
+        </a>
+
+        <button id="menuBtn" class="menu-btn">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 12H20M4 18H20" stroke="#f1f1f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div id="menuContent" class="d-flex justify-content-between align-items-center gap-5 menu-content">
+          <nav>
+            <ul class="d-flex gap-4 menu-content__list">
+              <li>
+                <a href="/src/news.html" class="custom-link">Noticias</a>
+              </li>
+              <li>
+                <a href="src/guides.html" class="custom-link">Guías y trucos</a>
+              </li>
+              <li>
+                <a href="src/reviews.html" class="custom-link">Reseñas</a>
+              </li>
+              <li>
+                <a href="/src/about.html" class="custom-link">Sobre nosotros</a>
+              </li>
+            </ul>
+          </nav>
+
+          <form>
+            <input class="form-control" type="search" placeholder="¿Qué deseas buscar?" value="">
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div id="carouselAutoplaying" class="carousel slide max-w-900 h-500 mx-auto mb-5 px-3 overflow-hidden" data-bs-ride="carousel">
+        <div class="carousel-inner h-100 rounded-3">
+          <div class="carousel-item h-100 active" data-bs-interval="5000">
+            <a href="src/guides/enden-ring.html" title="Más información">
+              <img src="assets/images/guides/elden-ring.webp" class="d-block w-100 h-100" alt="elden ring">
+            </a>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="5000">
+            <a href="src/news/days-of-play.html" title="Más información">
+              <img src="assets/images/news/days-of-play.webp" class="d-block w-100 h-100" alt="days-of-play">
+            </a>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="5000">
+            <a href="src/guides/red-dead-redemption2.html" title="Más información">
+              <img src="assets/images/guides/red-dead-redemption-2.webp" class="d-block w-100 h-100" alt="RDR2">
+            </a>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev" title="atrás">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next" title="siguiente">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="max-w-1050 mx-auto mb-5 p-3">
+
+        <h2 class="custom-h2">Noticias</h2>
+        <div id="carousel1" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/cod-black-ops6.webp" loading="lazy" class="card-img-top" height="180" alt="cod_black_ops6">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Call of Duty Black Ops6</h3>
+                    <p class="card-text mb-4">Confirma lo que muchos estaban esperando. Se ambientará en la Guerra del Golfo.</p>
+                    <a href="/src/news/cod-black-ops6.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/days-of-play.webp" loading="lazy" class="card-img-top" height="180" alt="days-of-play">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">PlayStation presenta “Days of Play”</h3>
+                    <p class="card-text mb-4">Evento anual lleno de emocionantes ofertas y descuentos en juegos, consolas y accesorios.</p>
+                    <a href="/src/news/days-of-play.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/ps-plus.webp" loading="lazy" class="card-img-top" height="180" alt="ps-plus">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">PS Plus Extra y Premiun de Junio</h3>
+                    <p class="card-text mb-4">Descubre los nuevos títulos que se suman al catálogo de PlayStation Plus Extra y Premium.</p>
+                    <a href="/src/news/ps-plus.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/diablo4.webp" loading="lazy" class="card-img-top" height="180" alt="Resident Evil 9">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Se adelante la temporada 5</h3>
+                    <p class="card-text mb-4">Blizzard prometió que sería la mejor temporada hasta el momento.</p>
+                    <a href="src/news/diablo4.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/the-elder-scrolls.webp" loading="lazy" class="card-img-top" height="180" alt="the-elder-scrolls">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Toda la saga Elden Scrolls rebajada</h3>
+                    <p class="card-text mb-4">Incluyendo la edición más completa de Skirym, con contenido adicional exclusivo.</p>
+                    <a href="src/news/the-elder-scrolls.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img src="assets/images/news/xbox.webp" loading="lazy" class="card-img-top" height="180" alt="xbox">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">La proxima consola de XBOX</h3>
+                    <p class="card-text mb-4">Promete revolucionar el gaming con tecnología de vanguardia.</p>
+                    <a href="/src/news/xbox-next-gen.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="guides">
+      <div class="max-w-1050 mx-auto p-3 mb-5">
+        <h2 class="custom-h2">Guías y Trucos</h2>
+        <div id="carousel2" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/red-dead-redemption-2.webp" loading="lazy" class="card-img-top" height="180" alt="xbox">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Consejos para principiantes en RDR2</h3>
+                    <p class="card-text mb-4">Este juego ofrece una experiencia única e inmersiva en un mundo abierto.</p>
+                    <a href="src/guides/red-dead-redemption2.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/diablo4.webp" loading="lazy" class="card-img-top" height="180" alt="days-of-play">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Diablo 4</h3>
+                    <p class="card-text mb-4">Como solucionar los problemas de conexión en Diablo de Blizzard.</p>
+                    <a href="/src/guides/diablo4.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/gow-ragnarok.webp" loading="lazy" class="card-img-top" height="180" alt="ps-plus">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">God of War Ragnarok</h3>
+                    <p class="card-text mb-4">Relíquias y empuñaduras para el trofeo Coleccionista.</p>
+                    <a href="src/guides/gow-of-war-ragnarok.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/resident-evil4.webp" loading="lazy" class="card-img-top" height="180" alt="Resident Evil 9">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Armas en Resident Evil 4 Remake</h3>
+                    <p class="card-text mb-4">Guía completa sobre armas en Resident Evil 4 Remake.</p>
+                    <a href="src/guides/resident-evil4.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/elden-ring.webp" loading="lazy" class="card-img-top" height="180" alt="the-elder-scrolls">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Guía de inicio en Elden Ring</h3>
+                    <p class="card-text mb-4">Aprende a manejar a tus habilidades y explorar con cuidado.</p>
+                    <a href="src/guides/enden-ring.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/guides/ghost-of-tsushima.webp" loading="lazy" class="card-img-top" height="180" alt="ghost-of-tsushima">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Ghost of tsushima</h3>
+                    <p class="card-text mb-4">Descubre consejos útiles para enriquecer tu experiencia</p>
+                    <a href="/src/guides/ghost-of-tsushima.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="max-w-1050 mx-auto p-3 mb-5">
+        <h2 class="custom-h2">Reseñas</h2>
+        <div id="carousel3" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/hellblade2.webp" loading="lazy" class="card-img-top" height="180" alt="hellblade2">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Senua's Saga: Hellblade II</h3>
+                    <p class="card-text mb-4">Una aventura visual y sonora impresionante y envolvente.</p>
+                    <a href="src/reviews/hellblade2.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/horizon-forbidden-west.webp" loading="lazy" class="card-img-top" height="180" alt="horizon-forbidden-west">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Horizon Forbidden West</h3>
+                    <p class="card-text mb-4">Nixxes trae a PC la aventura con excelente rendimiento.</p>
+                    <a href="src/reviews/horizon-forbidden-west.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/still-wakes-the-deep.webp" loading="lazy" class="card-img-top" height="180" alt="still-wakes-the-deep">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Still Wakes the Deep</h3>
+                    <p class="card-text mb-4">The Chinese Room vuelve con una aventura intrigante pero insatisfactoria.</p>
+                    <a href="src/reviews/still-wakes-the-deep.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="custom-grid">
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/cyberpunk2077.webp" loading="lazy" class="card-img-top" height="180" alt="cyberpunk2077">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Cyberpunk 2077</h3>
+                    <p class="card-text mb-4">Un nuevo comienzo para un juego polémico.</p>
+                    <a href="src/reviews/cyberpunk2077.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/resident-evil4.webp" loading="lazy" class="card-img-top" height="180" alt="resident-evil4">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">Resident Evil 4 Remake</h3>
+                    <p class="card-text mb-4">Una nueva vida para un clásico del terror.</p>
+                    <a href="src/reviews/resident-evil4.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+
+                <article class="card overflow-hidden">
+                  <img class="game-img" src="assets/images/reviews/tloz-totk.webp" loading="lazy" class="card-img-top" height="180" alt="tloz-totk">
+                  <div class="card-body">
+                    <h3 class="card-title fw-bold mb-3">TLOZ: Tears of the Kingdom</h3>
+                    <p class="card-text mb-4">Una nueva aventura épica en el mundo de Hyrule.</p>
+                    <a href="src/reviews/tloz-totk.html" class="btn btn-primary">Leer más aquí</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="d-flex flex-column justify-content-center align-items-center max-w-1050 mx-auto p-3">
+        <img src="/assets/icons/consulgamer.svg" alt="logo" width="120">
+        <ul class="d-flex justify-content-center align-items-center gap-3">
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Facebook">
+              <img src="/assets/icons/facebook.svg" alt="facebook" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Linkedin">
+              <img src="/assets/icons/linkedin.svg" alt="linkedin" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Youtube">
+              <img src="/assets/icons/youtube.svg" alt="youtube" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Instagram">
+              <img src="/assets/icons/instagram.svg" alt="instagram" width="24px">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="src/scripts/menu.js"></script>
+</body>
+</html>

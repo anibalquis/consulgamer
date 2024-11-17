@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <title>Consulgamer 🎮 | Playstation, Xbox, Nintento, PC</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Consulgamer 🎮 | Playstation, Xbox, Nintento, PC">
+  <meta property="og:description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/consulgamer.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="d-flex justify-content-between align-items-center mx-auto mb-4 p-3 max-w-1050">
+        <a href="/" class="scale-on-hover">
+          <img src="/assets/icons/consulgamer.svg" alt="consulgamer logo" width="90">
+        </a>
+
+        <button id="menuBtn" class="menu-btn">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 12H20M4 18H20" stroke="#f1f1f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div id="menuContent" class="d-flex justify-content-between align-items-center gap-5 menu-content">
+          <nav>
+            <ul class="d-flex gap-4 menu-content__list">
+              <li>
+                <a href="/src/news.html" class="custom-link">Noticias</a>
+              </li>
+              <li>
+                <a href="/src/guides.html" class="custom-link">Guías y trucos</a>
+              </li>
+              <li>
+                <a href="/src/reviews.html" class="custom-link">Reseñas</a>
+              </li>
+              <li>
+                <a href="/src/about.html" class="custom-link">Sobre nosotros</a>
+              </li>
+            </ul>
+          </nav>
+
+          <form>
+            <input class="form-control" type="search" placeholder="¿Qué deseas buscar?" value="">
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="d-flex flex-column justify-content-center align-items-center gap-5 max-w-600 mx-auto mb-4 p-3">
+        <article class="text-center" style="position: relative;">
+          <img src="/assets/icons/playstation.svg" alt="playstation" class="platforms-logo">
+          <img src="/assets/icons/xbox.svg" alt="xbox" class="platforms-logo">
+
+          <h1 class="custom-h1">Tu Guía en el Mundo de los Videojuegos</h1>
+
+          <p class="lh-4">
+            ConsulGamer es tu <span class="highlight">destino definitivo</span> para todo lo relacionado con videojuegos, abarcando consolas, PC y dispositivos móviles. Ofrecemos análisis exhaustivos, las noticias más relevantes, guías y trucos útiles para superar los mejores juegos, así como opiniones claras sobre el mundo del entretenimiento digital.
+          </p>
+        </article>
+
+        <section>
+          <h2 class="custom-h2 text-center">Preguntas frecuentes</h2>
+
+          <div class="accordion accordion-flush w-100 mx-auto rounded-3 overflow-hidden" id="accordionFlushExample">
+            <article class="accordion-item">
+              <header class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h3>¿Qué tipo de contenido ofrece ConsulGamer?</h3>
+                </button>
+              </header>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <p class="accordion-body">
+                  ConsulGamer ofrece análisis detallados de videojuegos, noticias actualizadas, guías y trucos útiles, y opiniones sobre las tendencias en el mundo del entretenimiento digital.
+                </p>
+              </div>
+            </article>
+  
+            <article class="accordion-item">
+              <header class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h3>¿Cómo se seleccionan los juegos para los análisis en ConsulGamer?</h3>
+                </button>
+              </header>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <p class="accordion-body">
+                  Nuestro equipo de expertos elige juegos basándose en su popularidad, relevancia actual, y las solicitudes de nuestros lectores para asegurar que ofrecemos contenido valioso y de interés.
+                </p>
+              </div>
+            </article>
+  
+            <article class="accordion-item">
+              <header class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h3>¿Puedo encontrar guías y trucos para juegos específicos en ConsulGamer?</h3>
+                </button>
+              </header>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <p class="accordion-body">
+                  Sí, ConsulGamer proporciona guías y trucos detallados para una variedad de juegos populares en consolas, PC y dispositivos móviles.
+                </p>
+              </div>
+            </article>
+  
+            <article class="accordion-item">
+              <header class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <h3>¿Cómo puedo estar al tanto de las últimas actualizaciones y publicaciones de ConsulGamer?</h3>
+                </button>
+              </header>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <p class="accordion-body">
+                  Puedes suscribirte a nuestro boletín de noticias y seguirnos en nuestras redes sociales para recibir las últimas actualizaciones y artículos directamente en tu feed.
+                </p>
+              </div>
+            </article>
+  
+            <article class="accordion-item">
+              <header class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  <h3>¿Puedo sugerir un juego o tema para que sea cubierto en ConsulGamer?</h3>
+                </button>
+              </header>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <p class="accordion-body">
+                  Sí, valoramos las sugerencias de nuestros lectores. Puedes enviarnos tus recomendaciones a través de nuestro formulario de contacto en el sitio web.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer>
+      <div class="d-flex flex-column justify-content-center align-items-center max-w-1050 mx-auto p-3">
+        <img src="/assets/icons/consulgamer.svg" alt="logo" width="120">
+        <ul class="d-flex justify-content-center align-items-center gap-3">
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Facebook">
+              <img src="/assets/icons/facebook.svg" alt="facebook" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Linkedin">
+              <img src="/assets/icons/linkedin.svg" alt="linkedin" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Youtube">
+              <img src="/assets/icons/youtube.svg" alt="youtube" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Instagram">
+              <img src="/assets/icons/instagram.svg" alt="instagram" width="24px">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/menu.js"></script>
+</body>
+</html>

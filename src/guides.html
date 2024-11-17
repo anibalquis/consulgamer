@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <title>Consulgamer 🎮 | Playstation, Xbox, Nintento, PC</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Consulgamer 🎮 | Playstation, Xbox, Nintento, PC">
+  <meta property="og:description" content="Tu fuente definitiva de noticias, reseñas y guías sobre videojuegos. Descubre las últimas novedades del mundo gaming.">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/consulgamer.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/src/styles/reset.css">
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="d-flex justify-content-between align-items-center mx-auto mb-4 p-3 max-w-1050">
+        <a href="/" class="scale-on-hover">
+          <img src="/assets/icons/consulgamer.svg" alt="consulgamer logo" width="90">
+        </a>
+
+        <button id="menuBtn" class="menu-btn">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6H20M4 12H20M4 18H20" stroke="#f1f1f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div id="menuContent" class="d-flex justify-content-between align-items-center gap-5 menu-content">
+          <nav>
+            <ul class="d-flex gap-4 menu-content__list">
+              <li>
+                <a href="/src/news.html" class="custom-link">Noticias</a>
+              </li>
+              <li>
+                <a href="/src/guides.html" class="custom-link">Guías y trucos</a>
+              </li>
+              <li>
+                <a href="/src/reviews.html" class="custom-link">Reseñas</a>
+              </li>
+              <li>
+                <a href="/src/about.html" class="custom-link">Sobre nosotros</a>
+              </li>
+            </ul>
+          </nav>
+
+          <form>
+            <input class="form-control" type="search" placeholder="¿Qué deseas buscar?" value="">
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="max-w-800 mx-auto p-4">
+        <div class="max-w-600 mx-auto text-center" style="position: relative;">
+          <img src="/assets/icons/playstation.svg" alt="playstation" class="platforms-logo">
+          <img src="/assets/icons/xbox.svg" alt="xbox" class="platforms-logo">
+
+          <h1 class="custom-h1 mb-3">Bienvenido a Guías y Trucos</h1>
+
+          <p class="mb-4 lh-4">
+            Encuentra estrategias, secretos y consejos para mejorar en tus juegos favoritos. Nuestras guías y trucos son ideales para jugadores de todos los niveles, desde principiantes hasta veteranos. Descubre técnicas avanzadas y soluciones para superar cualquier desafío.
+          </p>
+        </div>
+
+        <a href="/src/guides/red-dead-redemption2.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/red-dead-redemption-2.webp" alt="red-dead-redemption-2" width="55" height="55">
+          </picture>
+  
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Guía para principiantes en Red Dead Redemption 2</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2018-10-27T00:00:00Z">27 octubre 2018</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Este juego es una experiencia única.</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/src/guides/diablo4.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/diablo4.webp" alt="diablo4" width="55" height="55">
+          </picture>
+
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Solucionar problemas de conexión en Diablo</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2024-07-15T00:00:00Z">15 julio 2024</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Mejora tu experiencia de juego</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/src/guides/gow-of-war-ragnarok.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/gow-ragnarok.webp" alt="gow-of-war-ragnarok" width="55" height="55">
+          </picture>
+  
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Reliquias y empuñaduras para el trofeo Coleccionista</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2022-11-09T00:00:00Z">9 noviembre 2022</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Guía para obtener el trofeo Coleccionista</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/src/guides/resident-evil4.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/resident-evil4.webp" alt="resident-evil4" width="55" height="55">
+          </picture>
+  
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Armas en Resident Evil 4 Remake</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2023-03-24T00:00:00Z">24 marzo 2023</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Descubre las armas más poderosas</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/src/guides/enden-ring.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/elden-ring.webp" alt="enden-ring" width="55" height="55">
+          </picture>
+  
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Aprende a explorar el facinante mundo de Enden Ring.</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2022-02-26T00:00:00Z">26 febrero 2022</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Guía de inicio en Elden Ring</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="/src/guides/ghost-of-tsushima.html" class="home-article">
+          <picture class="d-flex align-items-center">
+            <img class="rounded-2 game-img" src="/assets/images/guides/ghost-of-tsushima.webp" alt="ghost-of-tsushima" width="55" height="55">
+          </picture>
+
+          <div>
+            <h2 class="custom-h2 mb-2 fs-18">Consejos para principiantes en Ghost of Tsushima</h2>
+            <div class="fs-12">
+              <time class="time" datetime="2020-07-18T00:00:00Z">18 julio 2020</time>
+              <span class="separation"> - </span>
+              <span class="highlight">Descubre consejos útiles para enriquecer tu experiencia</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <footer>
+      <div class="d-flex flex-column justify-content-center align-items-center max-w-1050 mx-auto p-3">
+        <img src="/assets/icons/consulgamer.svg" alt="logo" width="120">
+        <ul class="d-flex justify-content-center align-items-center gap-3">
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Facebook">
+              <img src="/assets/icons/facebook.svg" alt="facebook" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Linkedin">
+              <img src="/assets/icons/linkedin.svg" alt="linkedin" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Youtube">
+              <img src="/assets/icons/youtube.svg" alt="youtube" width="24px">
+            </a>
+          </li>
+          <li>
+            <a class="d-inline-block scale-on-hover" href="#" title="Instagram">
+              <img src="/assets/icons/instagram.svg" alt="instagram" width="24px">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/src/scripts/menu.js"></script>
+</body>
+</html>
